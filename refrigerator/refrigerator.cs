@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-    static Dictionary<string, Product> products = new Dictionary<string, Product>();
+   
     static List<string> history = new List<string>();
     static List<Product> shoppingList = new List<Product>();
     static List<Product> cartItems = new List<Product>();
