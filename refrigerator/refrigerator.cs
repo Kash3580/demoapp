@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 class Program
 {
-   
+ 
     static List<string> history = new List<string>();
     static List<Product> shoppingList = new List<Product>();
     static List<Product> cartItems = new List<Product>();
@@ -22,7 +22,7 @@ class Program
         while (true)
         {
          
-            Console.WriteLine("\nEnter a command: \nshoppinglist | insert | cart | consume | status | history | check-expiry | exit");
+            Console.WriteLine("\nEnter a command: \nshoppinglist | cart | insert | consume | status | history | check-expiry | exit");
             string command = Console.ReadLine().ToLower();
  Console.WriteLine(command);
             switch (command)
