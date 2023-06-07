@@ -29,6 +29,7 @@ CREATE TABLE GuestLog (
 CREATE TABLE Apartment (
   apartment_id INT AUTO_INCREMENT  PRIMARY KEY,
   building_id INT,
+  building_name VARCHAR(255),
   apartment_number VARCHAR(255) ,
   num_guests int DEFAULT 0
 );
